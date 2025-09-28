@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import { TableOfContents,X } from 'lucide-react';
 const Navbar = () => {
+    
     const [toggol, setToggol] = useState(false)
     return (
         <div className='bg-blue-200  p-3 flex justify-between'>
@@ -13,7 +14,7 @@ const Navbar = () => {
                 <ul className={`absolute bg-amber-300 p-2 rounded-xl duration-1000 top-12 ${toggol?"left-1":"-left-24"} gap-8 `}>
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
-                    <li><a href="">Contuct</a></li>∆
+                    <li><a href="">Contuct</a></li>
                 </ul>
                 <span className='logo text-2xl'>ReChart</span>
             </div>

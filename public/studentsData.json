@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "math": 88,
+    "physics": 92,
+    "biology": 76
+  },
+  {
+    "id": 2,
+    "name": "Bob Williams",
+    "math": 75,
+    "physics": 80,
+    "biology": 95
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "math": 95,
+    "physics": 88,
+    "biology": 85
+  },
+  {
+    "id": 4,
+    "name": "Diana Miller",
+    "math": 65,
+    "physics": 70,
+    "biology": 72
+  },
+  {
+    "id": 5,
+    "name": "Ethan Davis",
+    "math": 92,
+    "physics": 90,
+    "biology": 88
+  },
+  {
+    "id": 6,
+    "name": "Fiona Garcia",
+    "math": 80,
+    "physics": 85,
+    "biology": 90
+  },
+  {
+    "id": 7,
+    "name": "George Wilson",
+    "math": 78,
+    "physics": 75,
+    "biology": 82
+  },
+  {
+    "id": 8,
+    "name": "Hannah Moore",
+    "math": 85,
+    "physics": 82,
+    "biology": 79
+  },
+  {
+    "id": 9,
+    "name": "Ivy Taylor",
+    "math": 90,
+    "physics": 94,
+    "biology": 91
+  },
+  {
+    "id": 10,
+    "name": "Jack Evans",
+    "math": 70,
+    "physics": 68,
+    "biology": 75
+  }
+]
