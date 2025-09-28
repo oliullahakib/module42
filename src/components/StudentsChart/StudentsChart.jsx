@@ -1,5 +1,5 @@
 import React,{use} from 'react';
-import { CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const StudentsChart = ({studentsDataPromiss}) => {
     const studentsDataObj=use(studentsDataPromiss)
@@ -9,9 +9,12 @@ const StudentsChart = ({studentsDataPromiss}) => {
             <LineChart width={800} height={600} data={studentsData}>
                 <CartesianGrid/>
             <Line dataKey='math'></Line>
+            <Line dataKey='physics' stroke='red'></Line>
+            <Line dataKey='biology' stroke='green'></Line>
             <XAxis dataKey={"name"}/>
             <YAxis/>
             <Legend/>
+            <Tooltip/>
             </LineChart>
         </div>
     );
