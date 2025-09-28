@@ -7,7 +7,7 @@ const StudentsChart = ({studentsDataPromiss}) => {
     return (
         <div>
             <LineChart width={800} height={600} data={studentsData}>
-                <CartesianGrid/>
+             <CartesianGrid/>
             <Line dataKey='math'></Line>
             <Line dataKey='physics' stroke='red'></Line>
             <Line dataKey='biology' stroke='green'></Line>
